@@ -1,0 +1,27 @@
+{
+    "name": "audentio/oauth2-imleagues",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "imleagues"
+    ],
+    "authors": [
+        {
+            "name": "Jake Booher",
+            "email": "jakeb@audentio.com"
+        }
+    ],
+    "require": {
+        "league/oauth2-client": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Audentio\\OAuth2\\Client\\IMLeagues\\": "src/"
+        }
+    }
+}
